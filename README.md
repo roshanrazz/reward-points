@@ -14,7 +14,14 @@ each customer per month and total.
 #### 2. Open in editor like eclipse, spring-tool-suite,intelliJ IDEA, preferably spring-tool-suite as I have used for creation.
 #### 3. Right click on project. Goto -> Run As -> Maven Build.
 #### 4. In Goals type spring-boot:run and run the project.
-#### Alternatively run the project from command prompt using mvn spring-boot:run command. 
+#### Alternatively run the project from command prompt using mvn spring-boot:run command.
+
+## Note for Developers
+#### I have used H2 as a database which can be accessed from browser by using url http://localhost:8080/h2-console with JDBC url jdbc:h2:mem:testdb and default username: sa and no password.
+
+#### There is a file data.sql in resources which contain dummy data for user and transaction entity which gets populated automatically when running the project.
+#### For testing purpose transaction can be created from controller endpoint also as provided below.
+#### All the test case passes.
 
 ## Endpoints
 ### List all users
