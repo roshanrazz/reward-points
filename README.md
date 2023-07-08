@@ -16,6 +16,10 @@ each customer per month and total.
 #### 4. In Goals type spring-boot:run and run the project.
 #### Alternatively run the project from command prompt using mvn spring-boot:run command.
 
+#### 5. Also project can be run from Dockerfile provided in project.
+#### 6. You can also run project from docker image pushed in my docker hub repository by using ->  docker pull roshanrazz/reward-points
+#### 7. Lastly you can use live link as it is deployed on server. Just replace localhost with 129.146.132.231. Cannot gurantee if it works all the time
+
 ## Note for Developers
 #### 1. I have used H2 as a database which can be accessed from browser by using url http://localhost:8080/h2-console with JDBC url jdbc:h2:mem:testdb and default username: sa and no password.
 
@@ -25,6 +29,7 @@ each customer per month and total.
 #### 5. All the test case passes.
 
 ## Endpoints
+### You can use live link as it is deployed on server. Just replace localhost with 129.146.132.231. Cannot gurantee if it works all the time.
 ### List all users
 GET -> http://localhost:8080/api/v1/users
 ### Get a single user
