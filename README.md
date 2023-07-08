@@ -51,6 +51,6 @@ GET -> http://localhost:8080/api/v1/users/{userId}/points
 
 ### Get Total points in a month by a user
 GET -> http://localhost:8080/api/v1/users/{userId}/points/{month}
-eg. month is in format like 2023-07,2023-06,2022-07
+eg. month -> 2023-07, 2023-06, 2022-07
 
 
