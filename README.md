@@ -17,11 +17,12 @@ each customer per month and total.
 #### Alternatively run the project from command prompt using mvn spring-boot:run command.
 
 ## Note for Developers
-#### I have used H2 as a database which can be accessed from browser by using url http://localhost:8080/h2-console with JDBC url jdbc:h2:mem:testdb and default username: sa and no password.
+#### 1. I have used H2 as a database which can be accessed from browser by using url http://localhost:8080/h2-console with JDBC url jdbc:h2:mem:testdb and default username: sa and no password.
 
-#### There is a file data.sql in resources which contain dummy data for user and transaction entity which gets populated automatically when running the project.
-#### For testing purpose transaction can be created from controller endpoint also as provided below.
-#### All the test case passes.
+#### 2. There is a file data.sql in resources which contain dummy data for user and transaction entity which gets populated automatically when running the project.
+#### 3. For testing purpose transaction can be created from controller endpoint also as provided below.
+#### 4. Port 8080 should not be used by other service as it runs on port 8080.
+#### 5. All the test case passes.
 
 ## Endpoints
 ### List all users
