@@ -9,6 +9,13 @@ dollar spent between $50 and $100 in each transaction.
 Given a record of every transaction during a three-month period, calculate the reward points earned for
 each customer per month and total.
 
+## Running the project
+#### 1. git clone https://github.com/roshanrazz/reward-points
+#### 2. Open in editor like eclipse, spring-tool-suite,intelliJ IDEA, preferably spring-tool-suite as I have used for creation.
+#### 3. Right click on project. Goto -> Run As -> Maven Build.
+#### 4. In Goals type spring-boot:run and run the project.
+#### Alternatively run the project from command prompt using mvn spring-boot:run command. 
+
 ## Endpoints
 ### List all users
 GET -> http://localhost:8080/api/v1/users
